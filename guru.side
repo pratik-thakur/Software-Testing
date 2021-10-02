@@ -1,0 +1,81 @@
+{
+  "id": "e57f7810-0e16-4501-846c-eef9241b184e",
+  "version": "2.0",
+  "name": "open google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "74c2d654-f6a3-45c4-baa1-d0f8708adab8",
+    "name": "open google",
+    "commands": [{
+      "id": "5570ffaa-e1db-43c3-94d2-301762edc29a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c580fec-1249-4bff-bd31-c3cc5bea3fe3",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "864460de-23ef-4ac1-bac3-6a0cfaa1dff1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "java tutorial"
+    }, {
+      "id": "84fca6be-2467-4778-b553-3b43b7e79375",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9b85187f-5990-4c2f-8cfa-72f4406a9224",
+    "name": "demoguru",
+    "commands": [{
+      "id": "2c775c10-cc3c-4bc9-94e0-e5528cf72b32",
+      "comment": "",
+      "command": "open",
+      "target": "http://demo.guru99.com/test/newtours/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "231525d4-0b8a-459a-b080-92e7f476f75e",
+      "comment": "",
+      "command": "type",
+      "target": "name=userName",
+      "targets": [],
+      "value": "xyz"
+    }, {
+      "id": "c43c74a8-c787-40d0-a956-bbbba825b70d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [],
+      "value": "abcd"
+    }, {
+      "id": "f51b44bb-c5b8-49db-a5e7-0a038e0d750d",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "adda5f86-206a-4152-aea5-3c6e6a697f7e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74c2d654-f6a3-45c4-baa1-d0f8708adab8"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

@@ -1,0 +1,1013 @@
+{
+  "id": "9c4be42d-0b0a-4199-9c63-8d39303871bb",
+  "version": "2.0",
+  "name": "Task 4",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "c844af0f-1ab3-44a6-9585-5c5d95574f54",
+    "name": "TC_01",
+    "commands": [{
+      "id": "241b0487-ef92-4ecf-8c1c-d398d716ae54",
+      "comment": "",
+      "command": "open",
+      "target": "http://only-testing-blog.blogspot.com/2013/09/testing.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fc05ecf-641e-4fd3-b93d-cd635a5c766f",
+      "comment": "",
+      "command": "check",
+      "target": "name=vehicle",
+      "targets": [],
+      "value": "bike"
+    }, {
+      "id": "249eb00a-c48a-4895-999c-9533f22fb97c",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "name=vehicle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee627475-8daa-4334-8b9c-d8273cf74458",
+      "comment": "",
+      "command": "uncheck",
+      "target": "name=vehicle",
+      "targets": [],
+      "value": "bike"
+    }, {
+      "id": "8644468f-4913-40a7-9c16-0227132913cf",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "name=vehicle",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6af8648-da35-4f9b-b870-6c8e82906d0d",
+    "name": "TC_02",
+    "commands": [{
+      "id": "dc5b4b04-ff60-4b39-95ed-f8b19a0b1c1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://yuilibrary.com/yui/docs/node/node-insert.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54d4d2cf-2c12-4a26-9cdc-26c705f9eef8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=hd-logo",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6fec12da-ea6d-4d33-bdd6-01e601965ff5",
+    "name": "Assignment 1.3",
+    "commands": [{
+      "id": "28757d5f-4c79-43d8-a20a-3a99b53ac349",
+      "comment": "",
+      "command": "open",
+      "target": "https://yuilibrary.com/yui/docs/node/node-insert.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07e65b87-827d-4d21-b129-32aa59fcb581",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "name=someElement",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "251c7abe-fcec-4416-a0a2-83a8f248e068",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name= someElement",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cfd00cd-47d8-44d6-85b2-e975154614bd",
+      "comment": "",
+      "command": "close",
+      "target": "https://yuilibrary.com/yui/docs/node/node-insert.html",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a5f936ec-061a-47cd-ac8d-c4424f39e524",
+    "name": "TC_04",
+    "commands": [{
+      "id": "8c8376b7-7e45-44ad-8d4a-a9dbab14c8ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://omayo.blogspot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f883f88-ef21-49da-8e6b-b460d91ea375",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "id=ta1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0c3e6c5-a90c-462c-a0e4-96318e9f8b48",
+      "comment": "",
+      "command": "assertNotEditable",
+      "target": "id=textbox1",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "58ad25af-ad28-4ede-9a07-e51e595199bb",
+    "name": "TC_05",
+    "commands": [{
+      "id": "45612f16-628d-424a-a142-1d5f76a953f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://erp.tcetmumbai.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aefd515-b027-43a9-bbc0-2e80d6b69f0f",
+      "comment": "",
+      "command": "assertText",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52875d37-7411-43ed-9c5d-c1be8e6810af",
+      "comment": "",
+      "command": "assertText",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94bec0e1-6800-42dc-a876-87b15f0b62d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUserId",
+      "targets": [],
+      "value": "E103921702"
+    }, {
+      "id": "798a7ba6-5753-4fee-9710-9532f8ed3b3f",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=txtUserNameId",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "6f7bf111-7d79-45f2-83f9-d6d18b16a149",
+      "comment": "",
+      "command": "echo",
+      "target": "isername=${i}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d59c69d3-4232-4f8c-bc4c-ce525db1c11d",
+    "name": "TC_06",
+    "commands": [{
+      "id": "de5dcd79-dcd3-4a00-85a3-47afc623e8c0",
+      "comment": "",
+      "command": "open",
+      "target": "https://omayo.blogspot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ed65887-6696-45c3-b5d8-dce3445f9e45",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.widget-content:nth-child(1) > button:nth-child(3)",
+      "targets": [
+        ["css=.widget-content:nth-child(1) > button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='setTimeout(myFunctionAXD,10000)']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML47']/div/button", "xpath:idRelative"],
+        ["xpath=//div[23]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Check this')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2942e9c8-2e00-4e7d-8434-f10fc8d17198",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "id=dte",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "4ca9fe67-0405-46ba-8ac0-e0d0b942f0e4",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "id=dte",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c492c46-86f0-4f92-baff-053db81a3d16",
+      "comment": "",
+      "command": "check",
+      "target": "id=dte",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c4123172-f252-4a47-ba88-e691f9a392c0",
+    "name": "Assignment 1.1",
+    "commands": [{
+      "id": "d7b6ca2d-06d0-4f09-b816-6a4a2c626b6b",
+      "comment": "",
+      "command": "open",
+      "target": "https://omayo.blogspot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed048d41-d01b-4165-9af0-be85766e93be",
+      "comment": "",
+      "command": "click",
+      "target": "id=ta1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8dbf7d9-12de-4b57-b4be-abbde85b884c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ta1",
+      "targets": [],
+      "value": "This is my Task for day 4 of software testing internship."
+    }, {
+      "id": "e78581ae-d173-40aa-8aab-e59c636cc62d",
+      "comment": "",
+      "command": "click",
+      "target": "id=drop1",
+      "targets": [
+        ["id=drop1", "id"],
+        ["name=SiteMap", "name"],
+        ["css=#drop1", "css:finder"],
+        ["xpath=//select[@id='drop1']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML1']/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Older Newsletters\ndoc 1\ndoc 2\ndoc 3\ndoc 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e945c008-0c2c-4e62-a9b9-4688d6da3dad",
+      "comment": "",
+      "command": "select",
+      "target": "id=drop1",
+      "targets": [
+        ["id=drop1", "id"],
+        ["name=SiteMap", "name"],
+        ["css=#drop1", "css:finder"],
+        ["xpath=//select[@id='drop1']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML1']/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Older Newsletters\ndoc 1\ndoc 2\ndoc 3\ndoc 4')]", "xpath:innerText"]
+      ],
+      "value": "label=doc 3"
+    }, {
+      "id": "13222604-210b-4fd4-a901-c4eb116f9b07",
+      "comment": "",
+      "command": "click",
+      "target": "id=drop1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8497288e-cce6-4f3a-a922-1208b454e39c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=blogsmenu",
+      "targets": [
+        ["id=blogsmenu", "id"],
+        ["css=#blogsmenu", "css:finder"],
+        ["xpath=//span[@id='blogsmenu']", "xpath:attributes"],
+        ["xpath=//div[@id='cssmenu']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Blogs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad071eba-58d5-4a22-9291-e1566b26fe98",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Blogs",
+      "targets": [
+        ["linkText=Blogs", "linkText"],
+        ["css=.has-sub > a", "css:finder"],
+        ["xpath=//div[@id='cssmenu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blogs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4866c9ef-2d7c-4d53-8943-1eba034e301d",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "id=but2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf3145e9-38ab-46e4-8a12-ac2be80bb31a",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=but2",
+      "targets": [],
+      "value": "Click Me!"
+    }, {
+      "id": "f3ff13af-731b-4084-9c4a-db53a20449ea",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id= intern",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb82a344-ea2f-4d17-9814-087602f73d95",
+      "comment": "",
+      "command": "waitForElementNotPresent",
+      "target": "id=intern",
+      "targets": [],
+      "value": "60000"
+    }]
+  }, {
+    "id": "ffebc55d-71f0-4657-b132-00cd47bda0a4",
+    "name": "TC_08",
+    "commands": [{
+      "id": "bf8f4a95-fc9b-4761-8fda-64ce1531f346",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bc0599d-3e61-4186-b74a-ba4ee9890154",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1476x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b17d765-4cfe-42a4-bedf-e19fe9cacf63",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "https://omayo.blogspot.com/"
+    }, {
+      "id": "cf7cd133-fffd-4a18-8908-70c9856784a8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8ae14914-fc71-42f0-bf5b-022454ec3dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div > .rc .LC20lb",
+      "targets": [
+        ["css=.g > div > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'omayo (QAFox.com)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "416d2b13-a312-4111-83a3-61aed67c24ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=drop1",
+      "targets": [
+        ["id=drop1", "id"],
+        ["name=SiteMap", "name"],
+        ["css=#drop1", "css:finder"],
+        ["xpath=//select[@id='drop1']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML1']/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Older Newsletters\ndoc 1\ndoc 2\ndoc 3\ndoc 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a858456f-3a9e-4bfb-89c3-2ee2ccc102ba",
+      "comment": "",
+      "command": "select",
+      "target": "id=drop1",
+      "targets": [],
+      "value": "label=doc 2"
+    }, {
+      "id": "cdd298d1-0538-479c-be5a-b81c6729884d",
+      "comment": "",
+      "command": "click",
+      "target": "id=drop1",
+      "targets": [
+        ["id=drop1", "id"],
+        ["name=SiteMap", "name"],
+        ["css=#drop1", "css:finder"],
+        ["xpath=//select[@id='drop1']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML1']/div/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Older Newsletters\ndoc 1\ndoc 2\ndoc 3\ndoc 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ef30ff2-9db6-4411-8adc-95a405743a62",
+      "comment": "",
+      "command": "click",
+      "target": "name=samename",
+      "targets": [
+        ["name=samename", "name"],
+        ["css=#HTML10 button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@name='samename']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML10']/div/button", "xpath:idRelative"],
+        ["xpath=//div[12]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce02f55-f4ce-4a4a-a7e7-d9a2ff4e6920",
+      "comment": "",
+      "command": "click",
+      "target": "css=#HTML31 input:nth-child(1)",
+      "targets": [
+        ["css=#HTML31 input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML31']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a1188d-e27c-49aa-9e13-a076102e5848",
+      "comment": "",
+      "command": "type",
+      "target": "css=#HTML31 input:nth-child(1)",
+      "targets": [
+        ["css=#HTML31 input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML31']/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "heyy"
+    }]
+  }, {
+    "id": "57670bee-64f3-4af8-ad4e-7ceec8f5934f",
+    "name": "TC_09",
+    "commands": [{
+      "id": "f012e8d5-f89f-4006-9f36-e91e687c49d4",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "https://omayo.blogspot.com/"
+    }, {
+      "id": "97295ef3-7d34-43c4-899a-549e5f8db4bd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fe047a62-133b-4d4f-bd8d-e5d6ac88d76f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5f438ac-d98f-44f9-9089-04f82baf8461",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1476x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2af590b-4b45-41d3-bdcd-9e6b09bf7517",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "https://omayo.blogspot.com/"
+    }, {
+      "id": "21398dbd-bd84-48a5-ae82-914d47d28f38",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d7894b25-676d-4fce-826d-06e35ba0d4c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div > .rc .LC20lb",
+      "targets": [
+        ["css=.g > div > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'omayo (QAFox.com)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2891819f-5a59-49b0-9607-e7ddeadb3786",
+    "name": "TC_10",
+    "commands": [{
+      "id": "939b9e01-916c-4c20-81c4-034deb836a65",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f28a0c02-2ae0-4dd4-a8c8-23c9a841b660",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1476x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f716833c-12c0-4e32-8d79-a9b22e384540",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "make my trip"
+    }, {
+      "id": "27ab8d1e-c8b8-4070-8ad6-dfdafdd49c14",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2f046ed4-633e-47e9-b1e2-ef02396c47c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .rc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .rc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b621c76-48e5-4ef2-8f70-af1e70888b9d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Villas & Apts",
+      "targets": [
+        ["linkText=Villas & Apts", "linkText"],
+        ["css=.menu_VillasApts > .makeFlex", "css:finder"],
+        ["xpath=//div[@id='SW']/div[2]/div[2]/div/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.makemytrip.com/homestays/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Villas & Apts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7517d570-754f-49b8-9d89-9e456ace8310",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .tabsCircle",
+      "targets": [
+        ["css=li:nth-child(1) > .tabsCircle", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d8ff5d5-ecc6-4fcc-8e19-0b1eb7628bc8",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=fromCity",
+      "targets": [
+        ["id=fromCity", "id"],
+        ["css=#fromCity", "css:finder"],
+        ["xpath=//input[@id='fromCity']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61ed258e-15d3-4d27-97db-a2ab85e1f526",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.react-autosuggest__input",
+      "targets": [
+        ["css=.react-autosuggest__input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbb0ef4-a889-4066-9c43-8c33e1f4cb38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.searchCity",
+      "targets": [
+        ["css=.searchCity", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d29efadb-ff92-4bc8-9d88-8f6c0d5b916d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-1-item-0 .calc60 > .font14",
+      "targets": [
+        ["css=#react-autowhatever-1-section-1-item-0 .calc60 > .font14", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-1-item-0']/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/div/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3a47756-c43a-405c-897e-5d016c65aa6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-2 .calc60 > .font14",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-2 .calc60 > .font14", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-2']/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Bangalore, India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db09145-6443-48eb-856c-348abc23e6d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(4)",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[5]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2766054-c4dc-4ed2-b632-fd10f6293d38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appendRight10 > .font30",
+      "targets": [
+        ["css=.appendRight10 > .font30", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/label/p/span/span", "xpath:idRelative"],
+        ["xpath=//p/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64086fc5-2e4b-4e3f-a031-85422aeac79e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)",
+      "targets": [
+        ["css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb18342-f5ad-40cf-9a1e-f47e668a8799",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnApply",
+      "targets": [
+        ["css=.btnApply", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'APPLY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02703d6f-7b9e-493a-9804-5a5105acdcd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.specialFare > .font12:nth-child(2)",
+      "targets": [
+        ["css=.specialFare > .font12:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c004b0f-3682-476f-b1b1-a1c333c3b231",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primaryBtn",
+      "targets": [
+        ["css=.primaryBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19600da2-9d05-4909-9f7b-9abbf2b789b4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.disable-btn",
+      "targets": [
+        ["css=.disable-btn", "css:finder"],
+        ["xpath=//div[@id='search-widget']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f6d842c-f76c-4d44-b1ec-d0c92f1e3ed1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.disable-btn",
+      "targets": [
+        ["css=.disable-btn", "css:finder"],
+        ["xpath=//div[@id='search-widget']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df57b5e9-1b58-402b-8cd4-bc494acef0c2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,66.66666412353516)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "61f633b8-99cc-4e32-a0c5-fd23e01fb04e",
+    "name": "TC_11",
+    "commands": [{
+      "id": "fbb2bf76-1a31-4917-a82b-815117c81773",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.makemytrip.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc8faff4-1513-474f-a88c-1ebfd7db59a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .tabsCircle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbc5309b-1855-462d-b2d2-a1d923c674c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.specialFare > .font12:nth-child(2)",
+      "targets": [
+        ["css=.specialFare > .font12:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eb7c420-e0da-462f-9189-ede8279200bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flightTravllers .lbl_input",
+      "targets": [
+        ["css=.flightTravllers .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/label/span", "xpath:idRelative"],
+        ["xpath=//div[5]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51aeac97-3e98-49c6-bf82-97d47a5e9bc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)",
+      "targets": [
+        ["css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "038b4a1e-74e5-454a-8a45-e91ebc0df8de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnApply",
+      "targets": [
+        ["css=.btnApply", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'APPLY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eabadbf0-8c92-48dc-a43f-802a05ff77a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dates > label > .lbl_input",
+      "targets": [
+        ["css=.dates > label > .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DEPARTURE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff108216-ab52-442a-8ca8-20df3099a1ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Week:nth-child(5) > .DayPicker-Day--selected",
+      "targets": [
+        ["css=.DayPicker-Week:nth-child(5) > .DayPicker-Day--selected", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[5]/div[4]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd63daf9-25f9-4eee-be4c-838606723e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primaryBtn",
+      "targets": [
+        ["css=.primaryBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4caafcdf-771d-4579-863f-70c1a0d682ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.arrival_sorter",
+      "targets": [
+        ["css=.arrival_sorter", "css:finder"],
+        ["xpath=//div[@id='sorting-togglers']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16d1ff71-c9ff-4fd1-8ca9-fa723e93393f",
+      "comment": "",
+      "command": "close",
+      "target": "https://www.makemytrip.com/flight/search?itinerary=BOM-BLR-29/07/2020&tripType=O&paxType=A-2_C-0_I-0&intl=false&cabinClass=E&pft=STU",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "017d4cb3-35c8-44b6-898a-ddacd18bfb21",
+    "name": "Assignment 1.4",
+    "commands": [{
+      "id": "10d5cfcd-7014-4fdc-a090-ba5518a593e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.makemytrip.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db2c0ec0-dbc5-42a7-aa18-7015c1d6d546",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdf2634-3b29-46a9-9aca-a2f5889895e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.specialFare > .font12:nth-child(2)",
+      "targets": [
+        ["css=.specialFare > .font12:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f652ec6-c5e4-4d5e-90fd-b8d60fcd489c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flightTravllers .lbl_input",
+      "targets": [
+        ["css=.flightTravllers .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/label/span", "xpath:idRelative"],
+        ["xpath=//div[5]/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60000a8-69fa-45fe-8345-45e5f8632dd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(1)",
+      "targets": [
+        ["css=.appendBottom20 > .guestCounter:nth-child(2) > li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae6e75a-4938-4d68-9c7a-b6e47bcbad61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btnApply",
+      "targets": [
+        ["css=.btnApply", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'APPLY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7dfd095-1dd0-4f2a-a634-9502937426dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dates > label > .lbl_input",
+      "targets": [
+        ["css=.dates > label > .lbl_input", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DEPARTURE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb822d0c-f034-4f9a-8289-dbfcbe94ca15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(3) p",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(3) p", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/div/div[3]/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[5]/div[3]/div/p", "xpath:idRelative"],
+        ["xpath=//div[5]/div[3]/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'28')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba742ebf-395b-4f69-b260-000cffabc580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primaryBtn",
+      "targets": [
+        ["css=.primaryBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e5a1ec7e-a51e-4919-b7f4-d3471fcdee5e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c844af0f-1ab3-44a6-9585-5c5d95574f54"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

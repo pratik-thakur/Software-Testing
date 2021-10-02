@@ -1,0 +1,86 @@
+{
+  "id": "f9dac712-8595-430a-b782-284a1affcf1e",
+  "version": "2.0",
+  "name": "mmt",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "068ccc36-cd4a-4bcb-9177-080642ad2aed",
+    "name": "mmt",
+    "commands": [{
+      "id": "f0b9741f-cc5e-46aa-8e3f-fd197e98c98a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1978cb4-574f-431f-9c32-743531d76f86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "970x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3467089b-7991-40e8-86ca-5640ee520e26",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eed5ad38-7628-464c-8945-f25c22b18ff6",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "makemytrip"
+    }, {
+      "id": "0f12cde9-d5ad-4e78-a3e5-77814329d24d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9f612914-b6bc-4abe-b01e-ac8f02f4e7b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .rc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .rc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "41742baa-254a-4dfd-994d-48baefdb7780",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["068ccc36-cd4a-4bcb-9177-080642ad2aed"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
